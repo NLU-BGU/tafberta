@@ -76,7 +76,15 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+*.ipynb
+*.nbconvert.ipynb
+*.nb.html
+*.nb.json
+
+# Jupyter runtime and config
+.jupyter/
+~$*.ipynb
 
 # IPython
 profile_default/
@@ -205,3 +213,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#
