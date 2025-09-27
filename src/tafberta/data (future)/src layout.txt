@@ -1,0 +1,46 @@
+src/
+└─ tafberta/
+   ├─ __init__.py
+   ├─ configs.py                   # keep (add new Dirs below)
+   ├─ params.py
+   ├─ main.py
+   ├─ dataset.py
+   ├─ job.py
+   ├─ probing.py
+   ├─ utils/
+   │  ├─ __init__.py
+   │  ├─ io.py
+   │  └─ utils.py
+   ├─ tokenizers/                  # already present (good!)
+   │  ├─ bermanLong_CDS.json
+   │  └─ wikipedia.json
+   ├─ training/
+   │  ├─ __init__.py
+   │  ├─ lightning.py              # rename from train_lightning.py
+   │  └─ dataloading.py            # NEW: houses collate_fn
+   ├─ evaluation/
+   │  ├─ __init__.py
+   │  ├─ scoring_minimal_pairs.py  # move here from root
+   │  └─ holistic/
+   │     ├─ __init__.py
+   │     ├─ scoring.py
+   │     ├─ train.py
+   │     └─ utils.py
+   └─ data/
+      ├─ __init__.py
+      ├─ handlers/                 # future: HTBerman/HeCLiMP handlers
+      │  ├─ __init__.py
+      │  ├─ htberman_handler.py
+      │  └─ heclimp_handler.py
+      ├─ preprocessing/            # future: creation code
+      │  ├─ __init__.py
+      │  ├─ htberman_builder.py
+      │  └─ heclimp_builder.py
+      └─ hf_datasets/              # future: HF loaders
+         ├─ __init__.py
+         ├─ htberman/
+         │  ├─ htberman.py
+         │  └─ README.md
+         └─ heclimp/
+            ├─ heclimp.py
+            └─ README.md
