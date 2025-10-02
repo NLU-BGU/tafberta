@@ -19,9 +19,9 @@ param2default = {
     'leave_unmasked_prob': 0.1,
     'random_token_prob': 0.1,
     'corpora': ('htberman',),
-    'tokenizer': 'bermanLong_CDS',
+    'tokenizer': 'htberman_tokenizer',
     # 'corpora': ('wikipedia_subset',),
-    # 'tokenizer': 'wikipedia',
+    # 'tokenizer': 'wikipedia_tokenizer',
     'add_prefix_space': True,  # better if True, whether to treat first token like any other token (False in GPT-2)
     'max_input_length': 128,  # unacceptable performance if lower than ~32
 

@@ -34,6 +34,13 @@ class Data:
     roberta_symbols = [mask_symbol, pad_symbol, unk_symbol, bos_symbol, eos_symbol]
     
 
+class Tokenizer:
+    vocab_size = 2 * 4096  # as the vocab size of BabyBERTa
+    min_frequency = 2
+    ADD_PREFIX_SPACE = True  # as in AlephBert and BabyBERTa
+    corpus_file_paths = [Dirs.htberman_processed]
+    tokenizer_path = Dirs.tokenizers / 'htberman_tokenizer.json'
+
 
 class Training:
     feedback_interval = 1000
