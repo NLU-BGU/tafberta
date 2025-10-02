@@ -37,8 +37,8 @@ class Data:
 class Tokenizer:
     vocab_size = 2 * 4096  # as the vocab size of BabyBERTa
     min_frequency = 2
-    ADD_PREFIX_SPACE = True  # as in AlephBert and BabyBERTa
-    corpus_file_paths = [Dirs.htberman_processed]
+    add_prefix_space = True  # as in AlephBert and BabyBERTa
+    corpus_file_paths = [str(Dirs.htberman_processed)]  # tokenizer.train(files=...) expects list of str paths
     tokenizer_path = Dirs.tokenizers / 'htberman_tokenizer.json'
 
 
