@@ -151,21 +151,27 @@ speech_files = sorted(
 
 
 
+# TODO: write as a function
+# Load original Hebrew CHILDES datasets (English transcription)
+# if os.path.exists(os.path.join(configs.Dirs.htberman_raw_english, "datasets.p")):
+#     with open(os.path.join(configs.Dirs.htberman_raw_english, "datasets.p"), "rb") as f:
+#         datasets = pickle.load(f)
+# else:
+#     datasets = {
+#         ds: pylangacq.read_chat(configs.DataPrep.url % ds)
+#         for ds in configs.DataPrep.all_datasets
+#     }
+#     with open(os.path.join(configs.Dirs.htberman_raw_english, "datasets.p"), "wb") as f:
+#         pickle.dump(datasets, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-# Load original CHILDES datasets (English)
-if os.path.exists(os.path.join(configs.Dirs.htberman_raw_english, "datasets.p")):
-    with open(os.path.join(configs.Dirs.htberman_raw_english, "datasets.p"), "rb") as f:
-        datasets = pickle.load(f)
-else:
-    datasets = {
-        ds: pylangacq.read_chat(configs.DataPrep.url % ds)
-        for ds in configs.DataPrep.datasets
-    }
-    with open(os.path.join(configs.Dirs.htberman_raw_english, "datasets.p"), "wb") as f:
-        pickle.dump(datasets, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-mor_datasets = {ds: reader
-                for ds, reader in datasets.items()
-                if is_dataset_has_morphology(reader)}
+# Load BermanLong dataset (English transcription)
+reader = pylangacq.read_chat(configs.DataPrep.url % configs.DataPrep.childes_in_htberman_dataset)
+readers = dict(zip(reader.file_paths(),
+                   [reader.pop_left() for i in range(len(reader.file_paths()))]))
 
-print(f'Loaded {len(mor_datasets)} datasets with has morphological anotations.')
+empty_file = 'BermanLong/Leor/leo300e.cha'
+del readers[empty_file]
+
+with open(os.path.join(configs.Dirs.htberman_raw_english, "readers_BermanLong.p"), "wb") as f:
+    pickle.dump(readers, f, protocol=pickle.HIGHEST_PROTOCOL)

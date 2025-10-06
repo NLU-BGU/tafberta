@@ -33,11 +33,12 @@ class Dirs:
 
 
 class DataPrep:
-    datasets = ['BSF',
-               'BatEl',
-               'BermanLong',
-               'Levy',
-               'Ravid']
+    all_datasets = ['BSF',
+                    'BatEl',
+                    'BermanLong',
+                    'Levy',
+                    'Ravid']
+    childes_in_htberman_dataset = 'BermanLong'
     
     url = "https://childes.talkbank.org/data/Other/Hebrew/%s.zip"
 
