@@ -10,11 +10,20 @@ class Dirs:
 
     raw = data / 'raw'
     processed = data / 'processed'
-    htberman_processed = processed / 'htberman' / 'corpus.txt'
+
+    # htberman
+    htberman_raw = raw / 'htberman'
+    htberman_raw_hebrew = htberman_raw / 'hebrew_conversations'
+    htberman_raw_english = htberman_raw / 'english_conversations'
+    htberman_processed = processed / 'htberman'
+    htberman_processed_hebrew = htberman_processed / 'hebrew_conversations'
+    htberman_processed_english = htberman_processed / 'english_conversations'
+
+    # heclimp
     heclimp_root = processed / 'heclimp'
     heclimp_testsuits = heclimp_root / 'htberman'
 
-    # wikipedia sentences file was created using https://github.com/akb89/witokit
+    # wikipedia sentences file was created using https://github.com/NLPH/SVLM-Hebrew-Wikipedia-Corpus
     wikipedia_data_raw = raw / 'wikipedia' / 'SVLM_Hebrew_Wikipedia_Corpus.txt'
     wikipedia_corpus_processed = processed / 'htberman' / 'wikipedia' / 'wikipedia_segmented.txt'
     wikipedia_testsuits = heclimp_root / 'wikipedia'
@@ -23,7 +32,19 @@ class Dirs:
     mlflow_tracking_uri = project_path / 'mlruns'
 
 
+class DataPrep:
+    datasets = ['BSF',
+               'BatEl',
+               'BermanLong',
+               'Levy',
+               'Ravid']
+    
+    url = "https://childes.talkbank.org/data/Other/Hebrew/%s.zip"
+
+
 class Data:
+    htberman_processed_corpus = Dirs.htberman_processed / 'corpus.txt'
+
     min_sentence_length = 2
     train_prob = 1.0  # probability that sentence is assigned to train split
     mask_symbol = '<mask>'

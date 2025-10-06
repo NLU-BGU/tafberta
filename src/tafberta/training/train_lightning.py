@@ -252,13 +252,9 @@ class TafBERTaDataModule(pl.LightningDataModule):
         project_path = configs.Dirs.project_path
         sentences = []
 
-        # for corpus_name in self.params.corpora:
-        #     data_path = project_path / 'data' / 'corpora' / f'{corpus_name}.txt'
-
-
         for corpus_name in self.params.corpora:
             if corpus_name.lower() in {"htberman", "cds"}:
-                data_path = configs.Dirs.htberman_processed
+                data_path = configs.Data.htberman_processed_corpus
                 print(f'Using corpus: {data_path}')
             sentences_in_corpus = load_sentences_from_file(
                 data_path,

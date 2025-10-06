@@ -1,0 +1,50 @@
+src/
+└─ tafberta/
+   ├─ __init__.py
+   ├─ configs.py
+   ├─ params.py
+   ├─ dataset.py
+   ├─ probing.py
+   ├─ tokenizers/
+   │  ├─ htberman_tokenizer.json
+   │  ├─ wikipedia_tokenizer.json
+   │  └─ train_tokenizer.py
+   ├─ training/
+   │  ├─ __init__.py
+   │  ├─ dataloading.py
+   │  └─ train_lightning.py
+   ├─ evaluation/
+   │  ├─ __init__.py
+   │  ├─ scoring_minimal_pairs.py
+   │  └─ holistic/
+   │     ├─ __init__.py
+   │     ├─ scoring.py
+   │     └─ utils.py
+   ├─ utils/
+   │  ├─ __init__.py
+   │  ├─ io.py
+   │  └─ utils.py
+   └─ data/
+      ├─ __init__.py
+      ├─ preparation/                  # NEW: phase 0 – collect/clean/raw stitching
+      │  ├─ __init__.py
+      │  ├─ htberman_prepare.py        # e.g., pull CDS sources → htberman.txt
+      │  └─ heclimp_prepare.py         # e.g., fetch/build final test suites
+      ├─ preprocessing/                # phase 1 – normalize/token-filter/splits
+      │  ├─ __init__.py
+      │  ├─ htberman_builder.py        # normalize → corpus.txt (no train/val/test)
+      │  └─ heclimp_builder.py         # parse final dev/test txt → jsonl if needed
+      ├─ handlers/                     # loaders used by training/eval
+      │  ├─ __init__.py
+      │  ├─ htberman_handler.py
+      │  └─ heclimp_handler.py
+      └─ hf_datasets/                  # HF dataset scripts (optional)
+         ├─ __init__.py
+         ├─ htberman/
+         │  ├─ __init__.py
+         │  ├─ htberman.py
+         │  └─ README.md
+         └─ heclimp/
+            ├─ __init__.py
+            ├─ heclimp.py
+            └─ README.md
