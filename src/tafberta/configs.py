@@ -80,15 +80,15 @@ class Training:
 class Eval:
     interval = 20_000
   
-    # paradigm_paths = [
-    #     Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_num',
-    #     Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_gen'
-    #     ]
-
     paradigm_paths = [
-        Dirs.wikipedia_testsuits / 'agreement_determiner_noun-across_0_adjective_num',
-        Dirs.wikipedia_testsuits / 'agreement_determiner_noun-across_0_adjective_gen'
+        Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_num',
+        Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_gen'
         ]
+
+    # paradigm_paths = [
+    #     Dirs.wikipedia_testsuits / 'agreement_determiner_noun-across_0_adjective_num',
+    #     Dirs.wikipedia_testsuits / 'agreement_determiner_noun-across_0_adjective_gen'
+    #     ]
 
 
 class Scoring:
