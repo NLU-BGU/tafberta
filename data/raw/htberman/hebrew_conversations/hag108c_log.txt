@@ -1,0 +1,237 @@
+1 55
+2 55
+******************************
+no match
+תיס tīas
+c: noun {gender masculine number singular status unsp}
+---------
+תיס
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+תיס tīas
+c: noun {gender masculine number singular status unsp}
+---------
+תיס
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+תיס tīas
+c: noun {gender masculine number singular status unsp}
+---------
+תיס
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+{מה פתאום} ma_pitʔōm
+c: interjection {}
+---------
+מה
+0: interrogative {register formal spelling standard type pronoun} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+פתאום
+c: SPLIT
+---------
+פתאום
+0: adverb {register formal spelling standard} {}
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+
+******************************
+no match
+יצני eycāni
+c: noun {gender masculine number singular status absolute}
+---------
+יצני
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+יום ayōm
+c: adverb {}
+---------
+יום
+0: noun {gender masculine number singular register formal spelling standard status construct} {}
+0: base mismatch
+--
+1: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+1: base mismatch
+--
+
+******************************
+no match
+תיס tīas
+c: noun {gender masculine number singular status unsp}
+---------
+תיס
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+יוק yaōq
+c: adjective {root yrq binyan qatol gender masculine number singular}
+---------
+יוק
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+אוה ʔōe
+c: noun {gender masculine number singular mass yes status unsp}
+---------
+אוה
+0: properName {definiteness false gender feminine number singular register formal spelling standard type person} {}
+0: base mismatch
+--
+
+******************************
+no match
+אורז ʔōrez
+c: noun {gender masculine number singular mass yes status unsp}
+---------
+אורז
+0: participle {binyan Pa'al gender masculine number singular person any register formal root arz spelling standard status construct type noun} {}
+0: missing mass
+--
+1: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root arz spelling standard status absolute type noun} {}
+1: missing mass
+--
+2: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root arz spelling standard status absolute type adjective} {}
+2: base mismatch
+--
+3: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root arz spelling standard status absolute type verb} {}
+3: base mismatch
+--
+4: noun {gender masculine number singular register formal spelling standard status construct} {}
+4: missing mass
+--
+5: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+5: missing mass
+--
+
+******************************
+no match
+אי ʔay
+c: interjection {}
+---------
+אי
+0: wPrefix {definiteness false polarity negative register formal spelling standard} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type pronoun} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: base mismatch
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: base mismatch
+--
+
+******************************
+no match
+יוק yaōq
+c: adjective {root yrq binyan qatol gender masculine number singular}
+---------
+יוק
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+יוק yaōq
+c: adjective {root yrq binyan qatol gender masculine number singular}
+---------
+יוק
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הגרי Hagāri
+c: properName {}
+---------
+הגרי
+0: verb {binyan Pi'el gender feminine number singular person 2 register formal root hgr spelling standard tense imperative} {}
+0: base mismatch
+--
+
+******************************
+no match
+הנקנקיה naqniqiyā
+c: noun {root tbd binyan tbd gender feminine number singular status absolute}
+---------
+הנקנקיה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+{הא זו} ha_zo
+c: pronoun {person 3 gender feminine number singular}
+---------
+הא
+0: properName {definiteness false gender feminine number singular register formal spelling standard type symbol} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+זו
+c: SPLIT
+---------
+זו
+0: pronoun {definiteness false gender feminine number singular person 3 register formal spelling standard type demonstrative} {}
+1: pronoun {definiteness false gender feminine number singular person 3 register formal spelling standard type personal} {}
+
+******************************
+no match
+וצה ocā
+c: participle {root rcy binyan Pa'al gender feminine number singular}
+---------
+וצה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+נקנקיה naqniqiyā
+c: noun {root tbd binyan tbd gender feminine number singular status absolute}
+---------
+נקנקיה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+תיס tīas
+c: noun {gender masculine number singular status unsp}
+---------
+תיס
+0: unknown {} {}
+0: base mismatch
+--
+
+Total 113 words, token mismathces: 19 , type mismatches 13

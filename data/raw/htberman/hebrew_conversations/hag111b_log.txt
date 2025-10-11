@@ -1,0 +1,74 @@
+1 24
+2 24
+******************************
+no match
+הגרי Hagāri
+c: properName {}
+---------
+הגרי
+0: verb {binyan Pi'el gender feminine number singular person 2 register formal root hgr spelling standard tense imperative} {}
+0: base mismatch
+--
+
+******************************
+no match
+הלחם lēxem
+c: noun {root lxm binyan qetel gender feminine number singular status unsp}
+---------
+הלחם
+0: verb {binyan Hif'il gender masculine number singular person 2 register formal root lxm spelling standard tense imperative} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: gender diff
+--
+2: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+שאימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+שאימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+הלחם lēxem
+c: noun {root lxm binyan qetel gender feminine number singular status unsp}
+---------
+הלחם
+0: verb {binyan Hif'il gender masculine number singular person 2 register formal root lxm spelling standard tense imperative} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: gender diff
+--
+2: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+הגרי Hagāri
+c: properName {}
+---------
+הגרי
+0: verb {binyan Pi'el gender feminine number singular person 2 register formal root hgr spelling standard tense imperative} {}
+0: base mismatch
+--
+
+Total 60 words, token mismathces: 5 , type mismatches 3

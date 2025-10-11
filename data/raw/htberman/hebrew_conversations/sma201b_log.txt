@@ -1,0 +1,2230 @@
+1 514
+2 514
+******************************
+no match
+איזה ʔēyze
+c: interrogative {gender masculine}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: missing gender
+--
+
+******************************
+no match
+טייפ ṭeyp
+c: noun {gender masculine number singular status unsp}
+---------
+טייפ
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+טייפ ṭeyp
+c: noun {gender masculine number singular status unsp}
+---------
+טייפ
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+{עד ש} ʕad_še
+c: conjunction {}
+---------
+עד
+0: preposition {register formal spelling standard} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: base mismatch
+--
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+2: base mismatch
+--
+
+Part of mutli word exp
+ש
+c: SPLIT
+---------
+ש
+
+******************************
+no match
+הירקן yarqān
+c: noun {root yrq binyan qetel gender masculine number singular poss 3femPL}
+---------
+הירקן
+0: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+0: missing poss
+--
+
+******************************
+no match
+בהיפר Hiper
+c: properName {}
+---------
+בהיפר
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+שהיגענו higāʕnu
+c: verb {root ngʕ binyan Hif'il tense past person 1 gender unsp number plural}
+---------
+שהיגענו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+והיגענו higāʕnu
+c: verb {root ngʕ binyan Hif'il tense past person 1 gender unsp number plural}
+---------
+והיגענו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+והיגענו higāʕnu
+c: verb {root ngʕ binyan Hif'il tense past person 1 gender unsp number plural}
+---------
+והיגענו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+בחוץ xuc
+c: noun {gender masculine number singular mass yes status unsp}
+---------
+בחוץ
+0: adverb {register formal spelling standard} {}
+0: base mismatch
+--
+1: wPrefix {definiteness false register formal spelling standard} {}
+1: base mismatch
+--
+2: wPrefix {definiteness true register formal spelling standard} {}
+2: base mismatch
+--
+3: noun {gender masculine number singular register formal spelling standard status construct} {}
+3: missing mass
+--
+4: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+4: missing mass
+--
+5: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+5: missing mass
+--
+
+******************************
+no match
+בחוץ xuc
+c: noun {gender masculine number singular mass yes status unsp}
+---------
+בחוץ
+0: adverb {register formal spelling standard} {}
+0: base mismatch
+--
+1: wPrefix {definiteness false register formal spelling standard} {}
+1: base mismatch
+--
+2: wPrefix {definiteness true register formal spelling standard} {}
+2: base mismatch
+--
+3: noun {gender masculine number singular register formal spelling standard status construct} {}
+3: missing mass
+--
+4: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+4: missing mass
+--
+5: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+5: missing mass
+--
+
+******************************
+no match
+{ואחר כך} ʔaxār_kaḳ
+c: adverb {}
+---------
+ואחר
+0: verb {binyan Pi'el gender masculine number singular person 3 register formal root axr spelling standard tense past} {}
+0: base mismatch
+--
+1: verb {binyan Pi'el gender masculine number singular person 2 register formal root axr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: preposition {register formal spelling standard} {}
+2: base mismatch
+--
+3: adjective {definiteness false function adjective gender masculine number singular register formal spelling standard status absolute} {}
+3: base mismatch
+--
+
+Part of mutli word exp
+כך
+c: SPLIT
+---------
+כך
+0: properName {definiteness false gender feminine number singular register formal spelling standard type organization} {}
+1: adverb {register formal spelling standard} {}
+2: pronoun {definiteness false register formal spelling standard type demonstrative} {}
+
+******************************
+no match
+היגענו higāʕnu
+c: verb {root ngʕ binyan Hif'il tense past person 1 gender unsp number plural}
+---------
+היגענו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+להיפר Hiper
+c: properName {}
+---------
+להיפר
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+בהיפר Hiper
+c: properName {}
+---------
+בהיפר
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היגדתי higādeti
+c: verb {root ngd binyan Hif'il tense past person 1 gender unsp number singular}
+---------
+היגדתי
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+וזהו zēhu
+c: interjection {}
+---------
+וזהו
+0: verb {binyan Pi'el gender {masculine and feminine} number plural person 2 register formal root zhh spelling standard tense imperative} {}
+0: base mismatch
+--
+1: pronoun {definiteness false gender masculine number singular person 3 register formal spelling standard type demonstrative} {}
+1: base mismatch
+--
+
+******************************
+no match
+זהו zēhu
+c: interjection {}
+---------
+זהו
+0: verb {binyan Pi'el gender {masculine and feminine} number plural person 2 register formal root zhh spelling standard tense imperative} {}
+0: base mismatch
+--
+1: pronoun {definiteness false gender masculine number singular person 3 register formal spelling standard type demonstrative} {}
+1: base mismatch
+--
+
+******************************
+no match
+איזה ʔēyze
+c: interrogative {gender masculine}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: missing gender
+--
+
+******************************
+no match
+איזה ʔēyze
+c: interrogative {gender masculine}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: missing gender
+--
+
+******************************
+no match
+בגנשעשועים ganšaʕašuʕīm
+c: noun {gender masculine number singular status comp} noun {gender masculine number singular status comp} noun {gender masculine number singular status comp}
+---------
+בגנשעשועים
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היגענו higāʕnu
+c: verb {root ngʕ binyan Hif'il tense past person 1 gender unsp number plural}
+---------
+היגענו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+בגנשעשועים ganšaʕašuʕīm
+c: noun {gender masculine number singular status comp} noun {gender masculine number singular status comp} noun {gender masculine number singular status comp}
+---------
+בגנשעשועים
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ילי Yaeli
+c: properName {}
+---------
+ילי
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ומרימי Miryāmi
+c: properName {}
+---------
+ומרימי
+0: participle {binyan Hif'il gender masculine number plural person any register formal root rwm spelling standard status construct type noun} {}
+0: base mismatch
+--
+1: participle {binyan Hif'il gender masculine number singular person any register formal root rwm spelling standard type noun} {}
+1: base mismatch
+--
+2: participle {binyan Hif'il gender masculine number plural person any register formal root rwm spelling irregular type noun} {}
+2: base mismatch
+--
+
+******************************
+no match
+לאיזה ʔēyze
+c: interrogative {gender masculine}
+---------
+לאיזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+
+******************************
+no match
+הגנשעשועים ganšaʕašuʕīm
+c: noun {gender masculine number singular status comp} noun {gender masculine number singular status comp} noun {gender masculine number singular status comp}
+---------
+הגנשעשועים
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+רסלה Ersela
+c: properName {}
+---------
+רסלה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+{בגן ארסלה} Gan_ʔersela
+c: properName {}
+---------
+בגן
+0: noun {gender masculine number singular register formal spelling standard status construct} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: base mismatch
+--
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+2: base mismatch
+--
+3: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+3: base mismatch
+--
+4: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+4: base mismatch
+--
+5: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+5: base mismatch
+--
+
+Part of mutli word exp
+ארסלה
+c: SPLIT
+---------
+ארסלה
+0: unknown {} {}
+
+******************************
+no match
+רסלה Ersela
+c: properName {}
+---------
+רסלה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+האת ʔet
+c: preposition {}
+---------
+האת
+0: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+0: base mismatch
+--
+
+******************************
+no match
+{הא זאתי} ha_zōʔti
+c: pronoun {person 3 gender feminine number singular}
+---------
+הא
+0: properName {definiteness false gender feminine number singular register formal spelling standard type symbol} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+זאתי
+c: SPLIT
+---------
+זאתי
+0: unknown {} {}
+
+******************************
+no match
+שופירה Ofira
+c: properName {}
+---------
+שופירה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+סבתא sāvtaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+סבתא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: status diff,gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+הקטני qaṭāni
+c: adjective {gender masculine number singular}
+---------
+הקטני
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הליצנוש leycānuš
+c: noun {gender masculine number singular status unsp}
+---------
+הליצנוש
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הליצנוק leycānuq
+c: noun {}
+---------
+הליצנוק
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הליצנוק leycānuq
+c: noun {}
+---------
+הליצנוק
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הליצנוק leycānuq
+c: noun {}
+---------
+הליצנוק
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הליצנו leycānu
+c: noun {}
+---------
+הליצנו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הליצנו leycānu
+c: noun {}
+---------
+הליצנו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+יכולה yeḳolā
+c: participle {root qṭn binyan Pa'al gender feminine number singular}
+---------
+יכולה
+0: modal {gender feminine number singular person any register formal spelling standard tense beinoni} {}
+0: base mismatch
+--
+
+******************************
+no match
+הכבוד kavōd
+c: noun {gender masculine number singular mass yes status absolute}
+---------
+הכבוד
+0: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+0: missing mass
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+הכבוד kavōd
+c: noun {gender masculine number singular mass yes status absolute}
+---------
+הכבוד
+0: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+0: missing mass
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+הופה hōpa
+c: interjection {}
+---------
+הופה
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+פעם
+c: SPLIT
+---------
+פעם
+0: verb {binyan Pi'el gender masculine number singular person 3 register formal root pym spelling standard tense past} {}
+1: verb {binyan Pa'al gender masculine number singular person 3 register formal root pym spelling standard tense past} {}
+2: verb {binyan Pi'el gender masculine number singular person 2 register formal root pym spelling standard tense imperative} {}
+3: verb {binyan Pa'al gender masculine number singular person 2 register formal root pym spelling standard tense imperative} {}
+4: adverb {register formal spelling standard} {}
+5: noun {gender feminine number singular register formal spelling standard status construct} {}
+6: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+ההרוח rūax
+c: noun {gender unsp number singular status unsp}
+---------
+ההרוח
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+יכולה yeḳolā
+c: participle {root qṭn binyan Pa'al gender feminine number singular}
+---------
+יכולה
+0: modal {gender feminine number singular person any register formal spelling standard tense beinoni} {}
+0: base mismatch
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+זהו zēhu
+c: interjection {}
+---------
+זהו
+0: verb {binyan Pi'el gender {masculine and feminine} number plural person 2 register formal root zhh spelling standard tense imperative} {}
+0: base mismatch
+--
+1: pronoun {definiteness false gender masculine number singular person 3 register formal spelling standard type demonstrative} {}
+1: base mismatch
+--
+
+******************************
+no match
+יכולה yeḳolā
+c: participle {root qṭn binyan Pa'al gender feminine number singular}
+---------
+יכולה
+0: modal {gender feminine number singular person any register formal spelling standard tense beinoni} {}
+0: base mismatch
+--
+
+******************************
+no match
+{עד ש} ʕad_še
+c: conjunction {}
+---------
+עד
+0: preposition {register formal spelling standard} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: base mismatch
+--
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+2: base mismatch
+--
+
+Part of mutli word exp
+ש
+c: SPLIT
+---------
+ש
+
+******************************
+no match
+נוכל nuḳāl
+c: verb {root qṭn binyan Pa'al tense future person 1 gender unsp number plural}
+---------
+נוכל
+0: modal {gender {masculine and feminine} number plural person 1 register formal spelling standard tense future} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: base mismatch
+--
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+2: base mismatch
+--
+
+******************************
+no match
+{כמה ש} kāma_še
+c: conjunction {}
+---------
+כמה
+0: verb {binyan Pa'al gender masculine number singular person 3 register formal root kmh spelling standard tense past} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender masculine number singular person 2 register formal root kmh spelling standard tense imperative} {}
+1: base mismatch
+--
+2: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root kmh spelling standard status absolute type noun} {}
+2: base mismatch
+--
+3: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root kmh spelling standard status absolute type adjective} {}
+3: base mismatch
+--
+4: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root kmh spelling standard status absolute type verb} {}
+4: base mismatch
+--
+5: quantifier {register formal spelling standard status construct type amount} {}
+5: base mismatch
+--
+6: quantifier {definiteness false register formal spelling standard status absolute type amount} {}
+6: base mismatch
+--
+7: interrogative {register formal spelling standard type prodet} {}
+7: base mismatch
+--
+8: pronoun {definiteness false register formal spelling standard type impersonal} {}
+8: base mismatch
+--
+9: interrogative {register formal spelling standard type pronoun} {}
+9: base mismatch
+--
+
+Part of mutli word exp
+ש
+c: SPLIT
+---------
+ש
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+היפופוטם hipopoṭām
+c: noun {gender masculine number singular status unsp}
+---------
+היפופוטם
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+וזהו zēhu
+c: interjection {}
+---------
+וזהו
+0: verb {binyan Pi'el gender {masculine and feminine} number plural person 2 register formal root zhh spelling standard tense imperative} {}
+0: base mismatch
+--
+1: pronoun {definiteness false gender masculine number singular person 3 register formal spelling standard type demonstrative} {}
+1: base mismatch
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+Part of mutli word exp
+מעט
+c: SPLIT
+---------
+מעט
+0: verb {binyan Pi'el gender masculine number singular person 3 register formal root myv spelling standard tense past} {}
+1: verb {binyan Pi'el gender masculine number singular person 2 register formal root myv spelling standard tense imperative} {}
+2: quantifier {register formal spelling standard status construct type amount} {}
+3: quantifier {definiteness false register formal spelling standard status absolute type amount} {}
+4: adverb {register formal spelling standard} {}
+5: adjective {function adjective gender masculine number singular register formal spelling standard status construct} {}
+6: adjective {definiteness false function adjective gender masculine number singular register formal spelling standard status absolute} {}
+7: participle {binyan Pa'al gender masculine number singular person any register formal root ywv spelling standard status construct type noun} {}
+8: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root ywv spelling standard status absolute type noun} {}
+9: noun {gender masculine number singular register formal spelling standard status construct} {}
+10: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+
+******************************
+no match
+ההם hhm
+c: interjection {}
+---------
+ההם
+0: pronoun {definiteness true gender masculine number plural person 3 register formal spelling standard type demonstrative} {}
+0: base mismatch
+--
+
+******************************
+no match
+יכולה yeḳolā
+c: participle {root qṭn binyan Pa'al gender feminine number singular}
+---------
+יכולה
+0: modal {gender feminine number singular person any register formal spelling standard tense beinoni} {}
+0: base mismatch
+--
+
+******************************
+no match
+ילי Yaeli
+c: properName {}
+---------
+ילי
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+יכולה yeḳolā
+c: participle {root qṭn binyan Pa'al gender feminine number singular}
+---------
+יכולה
+0: modal {gender feminine number singular person any register formal spelling standard tense beinoni} {}
+0: base mismatch
+--
+
+******************************
+no match
+הכבוד kavōd
+c: noun {gender masculine number singular mass yes status absolute}
+---------
+הכבוד
+0: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+0: missing mass
+--
+
+******************************
+no match
+תכף tēḳef
+c: adverb {}
+---------
+תכף
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+עשרה
+c: SPLIT
+---------
+עשרה
+0: verb {binyan Pi'el gender feminine number singular person 3 register formal root yer spelling standard tense past} {}
+1: numeral {definiteness false gender masculine number plural register formal spelling standard status absolute type {numeral cardinal} value 10} {}
+
+******************************
+no match
+{שתים עשרה} šteym_ʕeṣrē
+c: numeral {gender feminine}
+---------
+שתים
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+עשרה
+c: SPLIT
+---------
+עשרה
+0: verb {binyan Pi'el gender feminine number singular person 3 register formal root yer spelling standard tense past} {}
+1: numeral {definiteness false gender masculine number plural register formal spelling standard status absolute type {numeral cardinal} value 10} {}
+
+******************************
+no match
+הכבוד kavōd
+c: noun {gender masculine number singular mass yes status absolute}
+---------
+הכבוד
+0: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+0: missing mass
+--
+
+******************************
+no match
+בחוץ xuc
+c: noun {gender masculine number singular mass yes status unsp}
+---------
+בחוץ
+0: adverb {register formal spelling standard} {}
+0: base mismatch
+--
+1: wPrefix {definiteness false register formal spelling standard} {}
+1: base mismatch
+--
+2: wPrefix {definiteness true register formal spelling standard} {}
+2: base mismatch
+--
+3: noun {gender masculine number singular register formal spelling standard status construct} {}
+3: missing mass
+--
+4: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+4: missing mass
+--
+5: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+5: missing mass
+--
+
+******************************
+no match
+בחוץ xuc
+c: noun {gender masculine number singular mass yes status unsp}
+---------
+בחוץ
+0: adverb {register formal spelling standard} {}
+0: base mismatch
+--
+1: wPrefix {definiteness false register formal spelling standard} {}
+1: base mismatch
+--
+2: wPrefix {definiteness true register formal spelling standard} {}
+2: base mismatch
+--
+3: noun {gender masculine number singular register formal spelling standard status construct} {}
+3: missing mass
+--
+4: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+4: missing mass
+--
+5: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+5: missing mass
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+יכולה yeḳolā
+c: participle {root qṭn binyan Pa'al gender feminine number singular}
+---------
+יכולה
+0: modal {gender feminine number singular person any register formal spelling standard tense beinoni} {}
+0: base mismatch
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+יכולה yeḳolā
+c: participle {root qṭn binyan Pa'al gender feminine number singular}
+---------
+יכולה
+0: modal {gender feminine number singular person any register formal spelling standard tense beinoni} {}
+0: base mismatch
+--
+
+******************************
+no match
+תורך torēḳ
+c: noun {gender masculine number singular poss 2femSG}
+---------
+תורך
+0: verb {binyan Huf'al gender masculine number singular person 2 register formal root rkk spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Huf'al gender feminine number singular person 3 register formal root rkk spelling standard tense future} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard} {}
+2: missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+תורי torī
+c: noun {gender masculine number singular poss 1SG}
+---------
+תורי
+0: verb {binyan Hif'il gender feminine number singular person 2 register formal root irh spelling standard tense future} {}
+0: base mismatch
+--
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root twr spelling standard tense imperative} {}
+1: base mismatch
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number plural register formal spelling irregular} {}
+4: number diff,missing poss
+--
+
+******************************
+no match
+איזה ʔēyze
+c: interrogative {gender masculine}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: missing gender
+--
+
+******************************
+no match
+הגנשעשועים ganšaʕašuʕīm
+c: noun {gender masculine number singular status comp} noun {gender masculine number singular status comp} noun {gender masculine number singular status comp}
+---------
+הגנשעשועים
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+בגנשעשועים ganšaʕašuʕīm
+c: noun {gender masculine number singular status comp} noun {gender masculine number singular status comp} noun {gender masculine number singular status comp}
+---------
+בגנשעשועים
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+{ואחרי זה} ʔaxrēy_ze
+c: adverb {}
+---------
+ואחרי
+0: verb {binyan Pi'el gender feminine number singular person 2 register formal root axr spelling standard tense imperative} {}
+0: base mismatch
+--
+1: preposition {register formal spelling standard} {}
+1: base mismatch
+--
+2: preposition {register formal spelling irregular} {}
+2: base mismatch
+--
+
+Part of mutli word exp
+זה
+c: SPLIT
+---------
+זה
+0: pronoun {definiteness false gender masculine number singular person 3 register formal spelling standard type demonstrative} {}
+1: pronoun {definiteness false gender masculine number singular person 3 register formal spelling standard type personal} {}
+
+******************************
+no match
+היגדנו higādnu
+c: verb {root ngd binyan Hif'il tense past person 1 gender unsp number plural}
+---------
+היגדנו
+0: noun {gender masculine number singular register formal spelling standard} {}
+0: base mismatch
+--
+
+******************************
+no match
+{איזה יופי} ʔēyze_yōfi
+c: interjection {}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: base mismatch
+--
+
+Part of mutli word exp
+יופי
+c: SPLIT
+---------
+יופי
+0: interjection {register formal spelling standard} {}
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+
+******************************
+no match
+וואני ʔanī
+c: pronoun {person 1 number singular}
+---------
+וואני
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+פעם
+c: SPLIT
+---------
+פעם
+0: verb {binyan Pi'el gender masculine number singular person 3 register formal root pym spelling standard tense past} {}
+1: verb {binyan Pa'al gender masculine number singular person 3 register formal root pym spelling standard tense past} {}
+2: verb {binyan Pi'el gender masculine number singular person 2 register formal root pym spelling standard tense imperative} {}
+3: verb {binyan Pa'al gender masculine number singular person 2 register formal root pym spelling standard tense imperative} {}
+4: adverb {register formal spelling standard} {}
+5: noun {gender feminine number singular register formal spelling standard status construct} {}
+6: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+
+******************************
+no match
+היגדתי higādeti
+c: verb {root ngd binyan Hif'il tense past person 1 gender unsp number singular}
+---------
+היגדתי
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+פעם
+c: SPLIT
+---------
+פעם
+0: verb {binyan Pi'el gender masculine number singular person 3 register formal root pym spelling standard tense past} {}
+1: verb {binyan Pa'al gender masculine number singular person 3 register formal root pym spelling standard tense past} {}
+2: verb {binyan Pi'el gender masculine number singular person 2 register formal root pym spelling standard tense imperative} {}
+3: verb {binyan Pa'al gender masculine number singular person 2 register formal root pym spelling standard tense imperative} {}
+4: adverb {register formal spelling standard} {}
+5: noun {gender feminine number singular register formal spelling standard status construct} {}
+6: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+
+******************************
+no match
+והיגדתי higādeti
+c: verb {root ngd binyan Hif'il tense past person 1 gender unsp number singular}
+---------
+והיגדתי
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+וווחזרנו xazārnu
+c: verb {root xzr binyan Pa'al tense past person 1 gender unsp number plural}
+---------
+וווחזרנו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+איזה ʔēyze
+c: interrogative {gender masculine}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: missing gender
+--
+
+******************************
+no match
+טייפ ṭeyp
+c: noun {gender masculine number singular status unsp}
+---------
+טייפ
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+טייפ ṭeyp
+c: noun {gender masculine number singular status unsp}
+---------
+טייפ
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+קצת
+c: SPLIT
+---------
+קצת
+0: verb {binyan Pa'al gender masculine number singular person 2 register formal root qwc spelling standard tense past} {}
+1: verb {binyan Pa'al gender feminine number singular person 2 register formal root qwc spelling standard tense past} {}
+2: quantifier {register formal spelling standard status construct type amount} {}
+3: quantifier {definiteness false register formal spelling standard status absolute type amount} {}
+4: adverb {register formal spelling standard} {}
+
+******************************
+no match
+ששששהיינו hayīnu
+c: copula {root hyy binyan Pa'al tense past person 1 gender unsp number plural}
+---------
+ששששהיינו
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מים māyim
+c: noun {gender masculine number plural mass yes status absolute}
+---------
+מים
+0: noun {definiteness false gender masculine number plural register formal spelling standard status absolute} {}
+0: missing mass
+--
+1: properName {definiteness false gender {masculine and feminine} number singular register formal spelling standard type person} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: status diff,number diff,missing mass
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: number diff,missing mass
+--
+
+******************************
+no match
+מים māyim
+c: noun {gender masculine number plural mass yes status absolute}
+---------
+מים
+0: noun {definiteness false gender masculine number plural register formal spelling standard status absolute} {}
+0: missing mass
+--
+1: properName {definiteness false gender {masculine and feminine} number singular register formal spelling standard type person} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: status diff,number diff,missing mass
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: number diff,missing mass
+--
+
+******************************
+no match
+מים māyim
+c: noun {gender masculine number plural mass yes status absolute}
+---------
+מים
+0: noun {definiteness false gender masculine number plural register formal spelling standard status absolute} {}
+0: missing mass
+--
+1: properName {definiteness false gender {masculine and feminine} number singular register formal spelling standard type person} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: status diff,number diff,missing mass
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: number diff,missing mass
+--
+
+******************************
+no match
+מים māyim
+c: noun {gender masculine number plural mass yes status absolute}
+---------
+מים
+0: noun {definiteness false gender masculine number plural register formal spelling standard status absolute} {}
+0: missing mass
+--
+1: properName {definiteness false gender {masculine and feminine} number singular register formal spelling standard type person} {}
+1: base mismatch
+--
+2: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: status diff,number diff,missing mass
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: number diff,missing mass
+--
+
+******************************
+no match
+{איזה יופי} ʔēyze_yōfi
+c: interjection {}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: base mismatch
+--
+
+Part of mutli word exp
+יופי
+c: SPLIT
+---------
+יופי
+0: interjection {register formal spelling standard} {}
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+
+******************************
+no match
+הבי bay
+c: interjection {}
+---------
+הבי
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+ההביתה habāyta
+c: adverb {}
+---------
+ההביתה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+טייפ ṭeyp
+c: noun {gender masculine number singular status unsp}
+---------
+טייפ
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+ש
+c: SPLIT
+---------
+ש
+
+******************************
+no match
+טייפ ṭeyp
+c: noun {gender masculine number singular status unsp}
+---------
+טייפ
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+האלה ha_ʔēle
+c: pronoun {person 3 gender masculine number plural}
+---------
+האלה
+0: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+0: base mismatch
+--
+1: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+1: base mismatch
+--
+2: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+2: base mismatch
+--
+3: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+3: base mismatch
+--
+4: pronoun {definiteness true gender {masculine and feminine} number plural person 3 register formal spelling standard type demonstrative} {}
+4: gender diff
+--
+
+******************************
+no match
+סבתא sāvtaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+סבתא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: status diff,gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+ופירה Ofira
+c: properName {}
+---------
+ופירה
+0: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard} {}
+1: base mismatch
+--
+
+******************************
+no match
+לסבתא sāvtaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+לסבתא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: status diff,gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+4: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+4: gender diff
+--
+5: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+5: gender diff
+--
+
+******************************
+no match
+לסבתא sāvtaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+לסבתא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: status diff,gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+4: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+4: gender diff
+--
+5: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+5: gender diff
+--
+
+******************************
+no match
+תסעי tisʕī
+c: verb {root nsʕ binyan Pa'al tense future person 2 gender feminine number singular}
+---------
+תסעי
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+סבתא sāvtaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+סבתא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: status diff,gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+{בשתים עשרה} šteym_ʕeṣrē
+c: numeral {gender feminine}
+---------
+בשתים
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+עשרה
+c: SPLIT
+---------
+עשרה
+0: verb {binyan Pi'el gender feminine number singular person 3 register formal root yer spelling standard tense past} {}
+1: numeral {definiteness false gender masculine number plural register formal spelling standard status absolute type {numeral cardinal} value 10} {}
+
+******************************
+no match
+{בשתים עשרה} šteym_ʕeṣrē
+c: numeral {gender feminine}
+---------
+בשתים
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+עשרה
+c: SPLIT
+---------
+עשרה
+0: verb {binyan Pi'el gender feminine number singular person 3 register formal root yer spelling standard tense past} {}
+1: numeral {definiteness false gender masculine number plural register formal spelling standard status absolute type {numeral cardinal} value 10} {}
+
+Part of mutli word exp
+עשרה
+c: SPLIT
+---------
+עשרה
+0: verb {binyan Pi'el gender feminine number singular person 3 register formal root yer spelling standard tense past} {}
+1: numeral {definiteness false gender masculine number plural register formal spelling standard status absolute type {numeral cardinal} value 10} {}
+
+******************************
+no match
+{שתים עשרה} šteym_ʕeṣrē
+c: numeral {gender feminine}
+---------
+שתים
+0: unknown {} {}
+0: base mismatch
+--
+
+Part of mutli word exp
+עשרה
+c: SPLIT
+---------
+עשרה
+0: verb {binyan Pi'el gender feminine number singular person 3 register formal root yer spelling standard tense past} {}
+1: numeral {definiteness false gender masculine number plural register formal spelling standard status absolute type {numeral cardinal} value 10} {}
+
+Part of mutli word exp
+עשרה
+c: SPLIT
+---------
+עשרה
+0: verb {binyan Pi'el gender feminine number singular person 3 register formal root yer spelling standard tense past} {}
+1: numeral {definiteness false gender masculine number plural register formal spelling standard status absolute type {numeral cardinal} value 10} {}
+
+Total 1314 words, token mismathces: 147 , type mismatches 57

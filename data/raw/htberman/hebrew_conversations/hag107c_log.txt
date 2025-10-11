@@ -1,0 +1,633 @@
+1 145
+2 145
+******************************
+no match
+אימא ʔīmaʔ
+c: noun {gender masculine number singular status absolute}
+---------
+אימא
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: status diff,gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+דודי dodī
+c: noun {gender masculine number singular poss 1SG}
+---------
+דודי
+0: properName {definiteness false gender masculine number singular register formal spelling standard type person} {}
+0: base mismatch
+--
+1: noun {gender masculine number plural register formal spelling standard status construct} {}
+1: number diff,missing poss
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number singular register formal spelling standard} {}
+4: missing poss
+--
+5: noun {gender masculine number plural register formal spelling irregular status construct} {}
+5: number diff,missing poss
+--
+6: noun {gender masculine number plural register formal spelling irregular} {}
+6: number diff,missing poss
+--
+7: noun {gender masculine number plural register formal spelling irregular} {}
+7: number diff,missing poss
+--
+8: noun {gender masculine number plural register formal spelling irregular} {}
+8: number diff,missing poss
+--
+
+******************************
+no match
+סמחה Sīmxa
+c: properName {}
+---------
+סמחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+דודי dodī
+c: noun {gender masculine number singular poss 1SG}
+---------
+דודי
+0: properName {definiteness false gender masculine number singular register formal spelling standard type person} {}
+0: base mismatch
+--
+1: noun {gender masculine number plural register formal spelling standard status construct} {}
+1: number diff,missing poss
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number singular register formal spelling standard} {}
+4: missing poss
+--
+5: noun {gender masculine number plural register formal spelling irregular status construct} {}
+5: number diff,missing poss
+--
+6: noun {gender masculine number plural register formal spelling irregular} {}
+6: number diff,missing poss
+--
+7: noun {gender masculine number plural register formal spelling irregular} {}
+7: number diff,missing poss
+--
+8: noun {gender masculine number plural register formal spelling irregular} {}
+8: number diff,missing poss
+--
+
+******************************
+no match
+סמחה Sīmxa
+c: properName {}
+---------
+סמחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+לחם lēxem
+c: noun {root lxm binyan qetel gender feminine number singular status unsp}
+---------
+לחם
+0: verb {binyan Pa'al gender masculine number singular person 3 register formal root lxm spelling standard tense past} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: gender diff
+--
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+4: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+4: gender diff
+--
+5: adjective {function adjective gender masculine number singular register formal spelling standard status construct} {}
+5: base mismatch
+--
+6: adjective {definiteness false function adjective gender masculine number singular register formal spelling standard status absolute} {}
+6: base mismatch
+--
+7: adjective {definiteness true function adjective gender masculine number singular register formal spelling standard status absolute} {}
+7: base mismatch
+--
+
+******************************
+no match
+לחם lēxem
+c: noun {root lxm binyan qetel gender feminine number singular status unsp}
+---------
+לחם
+0: verb {binyan Pa'al gender masculine number singular person 3 register formal root lxm spelling standard tense past} {}
+0: base mismatch
+--
+1: noun {gender masculine number singular register formal spelling standard status construct} {}
+1: gender diff
+--
+2: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+4: noun {definiteness true gender masculine number singular register formal spelling standard status absolute} {}
+4: gender diff
+--
+5: adjective {function adjective gender masculine number singular register formal spelling standard status construct} {}
+5: base mismatch
+--
+6: adjective {definiteness false function adjective gender masculine number singular register formal spelling standard status absolute} {}
+6: base mismatch
+--
+7: adjective {definiteness true function adjective gender masculine number singular register formal spelling standard status absolute} {}
+7: base mismatch
+--
+
+******************************
+no match
+לללה lalala
+c: interjection {}
+---------
+לללה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+איזה ʔēyze
+c: interrogative {gender masculine}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: missing gender
+--
+
+******************************
+no match
+איזה ʔēyze
+c: interrogative {gender masculine}
+---------
+איזה
+0: quantifier {register informal spelling standard status construct type determiner} {}
+0: base mismatch
+--
+1: interrogative {register formal spelling standard type prodet} {}
+1: missing gender
+--
+
+******************************
+no match
+לללה lalala
+c: interjection {}
+---------
+לללה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+לללה lalala
+c: interjection {}
+---------
+לללה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+לללה lalala
+c: interjection {}
+---------
+לללה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+דודי dodī
+c: noun {gender masculine number singular poss 1SG}
+---------
+דודי
+0: properName {definiteness false gender masculine number singular register formal spelling standard type person} {}
+0: base mismatch
+--
+1: noun {gender masculine number plural register formal spelling standard status construct} {}
+1: number diff,missing poss
+--
+2: noun {gender masculine number plural register formal spelling standard status construct} {}
+2: number diff,missing poss
+--
+3: noun {gender masculine number singular register formal spelling standard} {}
+3: missing poss
+--
+4: noun {gender masculine number singular register formal spelling standard} {}
+4: missing poss
+--
+5: noun {gender masculine number plural register formal spelling irregular status construct} {}
+5: number diff,missing poss
+--
+6: noun {gender masculine number plural register formal spelling irregular} {}
+6: number diff,missing poss
+--
+7: noun {gender masculine number plural register formal spelling irregular} {}
+7: number diff,missing poss
+--
+8: noun {gender masculine number plural register formal spelling irregular} {}
+8: number diff,missing poss
+--
+
+******************************
+no match
+סמחה Sīmxa
+c: properName {}
+---------
+סמחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+סמחה Sīmxa
+c: properName {}
+---------
+סמחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+יד yad
+c: noun {gender masculine number singular status unsp}
+---------
+יד
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+יד yad
+c: noun {gender masculine number singular status unsp}
+---------
+יד
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+יד yad
+c: noun {gender masculine number singular status unsp}
+---------
+יד
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ביד yad
+c: noun {gender masculine number singular status unsp}
+---------
+ביד
+0: preposition {register formal spelling standard} {}
+0: base mismatch
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+קפה qafē
+c: noun {root tbd binyan tbd gender masculine number singular mass yes status unsp}
+---------
+קפה
+0: noun {gender masculine number singular register formal spelling standard status construct} {}
+0: missing mass
+--
+1: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+1: missing mass
+--
+
+******************************
+no match
+קפה qafē
+c: noun {root tbd binyan tbd gender masculine number singular mass yes status unsp}
+---------
+קפה
+0: noun {gender masculine number singular register formal spelling standard status construct} {}
+0: missing mass
+--
+1: noun {definiteness false gender masculine number singular register formal spelling standard status absolute} {}
+1: missing mass
+--
+
+******************************
+no match
+יד yad
+c: noun {gender masculine number singular status unsp}
+---------
+יד
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+יד yad
+c: noun {gender masculine number singular status unsp}
+---------
+יד
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+יד yad
+c: noun {gender masculine number singular status unsp}
+---------
+יד
+0: noun {gender feminine number singular register formal spelling standard status construct} {}
+0: gender diff
+--
+1: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+ביד yad
+c: noun {gender masculine number singular status unsp}
+---------
+ביד
+0: preposition {register formal spelling standard} {}
+0: base mismatch
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+ביד yad
+c: noun {gender masculine number singular status unsp}
+---------
+ביד
+0: preposition {register formal spelling standard} {}
+0: base mismatch
+--
+1: noun {gender feminine number singular register formal spelling standard status construct} {}
+1: gender diff
+--
+2: noun {definiteness false gender feminine number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+3: noun {definiteness true gender feminine number singular register formal spelling standard status absolute} {}
+3: gender diff
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+סמחה Sīmxa
+c: properName {}
+---------
+סמחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+הלחיים lexayāyim
+c: noun {root tbd binyan tbd gender feminine number plural plural dual status absolute}
+---------
+הלחיים
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+בסכין sakīn
+c: noun {gender masculine number singular status unsp}
+---------
+בסכין
+0: noun {gender {masculine and feminine} number singular register formal spelling standard status construct} {}
+0: gender diff
+--
+1: noun {definiteness false gender {masculine and feminine} number singular register formal spelling standard status absolute} {}
+1: gender diff
+--
+2: noun {definiteness true gender {masculine and feminine} number singular register formal spelling standard status absolute} {}
+2: gender diff
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+******************************
+no match
+מימיחה Mimixa
+c: properName {}
+---------
+מימיחה
+0: unknown {} {}
+0: base mismatch
+--
+
+Total 288 words, token mismathces: 45 , type mismatches 12

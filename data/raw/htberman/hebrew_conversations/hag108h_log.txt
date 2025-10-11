@@ -1,0 +1,42 @@
+1 14
+2 14
+******************************
+no match
+הגרי Hagari
+c: properName {}
+---------
+הגרי
+0: verb {binyan Pi'el gender feminine number singular person 2 register formal root hgr spelling standard tense imperative} {}
+0: base mismatch
+--
+
+******************************
+no match
+צועק coʕēq
+c: participle {root cʕq binyan Pa'al gender feminine number singular}
+---------
+צועק
+0: participle {binyan Pa'al gender masculine number singular person any register formal root cyq spelling standard status construct type noun} {}
+0: gender diff
+--
+1: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root cyq spelling standard status absolute type noun} {}
+1: gender diff
+--
+2: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root cyq spelling standard status absolute type adjective} {}
+2: gender diff
+--
+3: participle {binyan Pa'al definiteness false gender masculine number singular person any register formal root cyq spelling standard status absolute type verb} {}
+3: gender diff
+--
+
+******************************
+no match
+הגרי Hagāri
+c: properName {}
+---------
+הגרי
+0: verb {binyan Pi'el gender feminine number singular person 2 register formal root hgr spelling standard tense imperative} {}
+0: base mismatch
+--
+
+Total 21 words, token mismathces: 3 , type mismatches 3
