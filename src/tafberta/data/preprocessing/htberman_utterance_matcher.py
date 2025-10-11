@@ -1,13 +1,4 @@
 # src/tafberta/data/preprocessing/htberman_builder.py
-from pathlib import Path
-from typing import Dict, Iterator, Iterable, List, Tuple, Optional
-import os
-import json
-import pickle
-
-import pylangacq  # for CHAT reading
-from tafberta import configs
-
 """
 UTTERANCE-LEVEL MATCHING (Phase 1)
 ----------------------------------
@@ -29,6 +20,16 @@ Outputs:
 
 Token-level normalization is NOT done here. That will be Phase 2.
 """
+
+from pathlib import Path
+from typing import Dict, Iterator, Iterable, List, Tuple, Optional
+import os
+import json
+import pickle
+
+import pylangacq  # for CHAT reading
+from tafberta import configs
+
 
 # -------------------------
 # Readers / sources loading
@@ -271,15 +272,10 @@ def iter_aligned_pairs(
             if not heb:
                 continue
 
-            # extract speaker + english surface
+            # extract speaker
             speaker = (utt.get("participant") if isinstance(utt, dict) else getattr(utt, "participant", "")) or ""
-            # tokens = (utt.get("tokens") if isinstance(utt, dict) else getattr(utt, "tokens", [])) or []
-            # if tokens and isinstance(tokens[0], dict) and "word" in tokens[0]:
-            #     eng_surface = " ".join(tok.get("word", "") for tok in tokens)
-            # else:
-            #     # best-effort fallback
-            #     eng_surface = getattr(utt, "transcript", "") or ""
-
+            
+            # extract sentence
             sentence_eng = ' '.join([token.word for token in utt.tokens])
             yield {
                 "eng_file_path": eng_key,
@@ -352,5 +348,4 @@ def build_htberman(
 
 
 if __name__ == "__main__":
-    # build_htberman()
     build_htberman(remove_speakers=("CHI",))
