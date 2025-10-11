@@ -467,7 +467,7 @@ def correct_prepositions(heb: str, eng: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Alignment helpers
+# Alignment helpers & MOR parsing
 # ---------------------------------------------------------------------------
 
 def token_count(s: str) -> int:
@@ -475,18 +475,64 @@ def token_count(s: str) -> int:
 
 
 def apply_if_improves(base: str, step_fn: Callable[[str], str], target_len: int) -> str:
-    """Apply `step_fn` only if token-count distance to `target_len` does not worsen.
+    """
+    Apply a transformation if it does not worsen the token-count distance to `target_len`.
 
-    This is a **conservative guard** around heuristic edits. It helps prevent
-    changes that push the Hebrew tokenization further away from the English
-    token count for the same utterance.
+    Parameters
+    ----------
+    base : str
+        Original string.
+    step_fn : Callable[[str], str]
+        Transformation function.
+    target_len : int
+        Target token count.
+
+    Returns
+    -------
+    str
+        Transformed string if token-count distance does not worsen; else original.
     """
     before = token_count(base)
     after_s = step_fn(base)
     after = token_count(after_s)
-    if abs(after - target_len) <= abs(before - target_len):
-        return after_s
+    return after_s if abs(after - target_len) <= abs(before - target_len) else base
     return base
+
+def parse_mor_tier(mor: Optional[str], expected_len: int) -> List[Optional[str]]:
+    """Split a MOR tier string into per-token items, padded/truncated to `expected_len`."""
+    if not mor:
+        return [None] * expected_len
+    items = mor.strip().split()
+    if len(items) < expected_len:
+        items += [None] * (expected_len - len(items))
+    elif len(items) > expected_len:
+        items = items[:expected_len]
+    return items
+
+def parse_mor_item(item: Optional[str]) -> Dict[str, str]:
+    """Very light MOR parser: returns {pos, lemma, ...features}."""
+    if not item:
+        return {}
+    pos = None
+    rest = item
+    if '|' in item:
+        pos, rest = item.split('|', 1)
+    feats: Dict[str, str] = {}
+    parts = rest.split('&') if rest else []
+    if parts:
+        first = parts[0]
+        if '=' not in first:
+            feats['lemma'] = first
+            parts = parts[1:]
+    if pos:
+        feats['pos'] = pos
+    for p in parts:
+        if '=' in p:
+            k, v = p.split('=', 1)
+            feats[k] = v
+        else:
+            feats[p] = 'true'
+    return feats
 
 # ---------------------------------------------------------------------------
 # Record & core processing
@@ -547,6 +593,7 @@ def run_token_level(
     *,
     in_pairs_jsonl: Path,
     out_pairs_token_jsonl: Path,
+    out_tokens_jsonl: Path,
     out_hebrew_token_txt: Path,
     details_parquet: Path,
     remove_speakers: Tuple[str, ...] = ("CHI",),
@@ -576,9 +623,11 @@ def run_token_level(
     aligned_count = 0
     skipped_count = 0
     misaligned_printed = 0
+    token_rows_written = 0
 
     with open(in_pairs_jsonl, "r", encoding="utf-8") as fin, \
          open(out_pairs_token_jsonl, "w", encoding="utf-8") as fout_pairs, \
+         open(out_tokens_jsonl, "w", encoding="utf-8") as fout_tokens, \
          open(out_hebrew_token_txt, "w", encoding="utf-8") as fout_txt:
         for line in tqdm(fin, total=total_lines, desc="[token-level] aligning", unit="utt"):
             rec = json.loads(line)
@@ -627,6 +676,29 @@ def run_token_level(
             fout_pairs.write(json.dumps(out_obj, ensure_ascii=False) + "\n")
             fout_txt.write(heb_seg + "\n")
 
+            # per-token rows with MOR annotation
+            e_toks = eng_seg.split()
+            h_toks = heb_seg.split()
+            mor_items = parse_mor_tier(mor if isinstance(mor, str) else None, len(e_toks))
+            for idx, e_tok in enumerate(e_toks):
+                h_tok = h_toks[idx] if idx < len(h_toks) else None
+                mor_tok = mor_items[idx] if idx < len(mor_items) else None
+                mor_parsed = parse_mor_item(mor_tok)
+                token_row = {
+                    "eng_file_path": rec.get("eng_file_path"),
+                    "heb_file_path": rec.get("heb_file_path"),
+                    "utt_index": rec.get("utt_index"),
+                    "speaker": speaker,
+                    "eng_idx": idx,
+                    "eng_token": e_tok,
+                    "heb_token": h_tok,
+                    "mor_token": mor_tok,
+                    "mor_parsed": mor_parsed,  # {pos, lemma, num, gen, ... if present}
+                    "aligned_utt": aligned,
+                }
+                fout_tokens.write(json.dumps(token_row, ensure_ascii=False) + "\n")
+                token_rows_written += 1
+
             rows.append(
                 TokenAlignRecord(
                     eng_file_path=str(rec.get("eng_file_path")),
@@ -664,17 +736,19 @@ def run_token_level(
     print(f"  total_input={total} processed={processed} skipped={skipped_count}")
     print(f"  aligned={aligned_count}/{processed} ({final_ratio:.1%})")
     print(f"  wrote pairs  -> {out_pairs_token_jsonl}")
+    print(f"  wrote tokens  -> {out_tokens_jsonl} (rows={token_rows_written})")
     print(f"  wrote hebrew -> {out_hebrew_token_txt}")
     print(f"  wrote diag   -> {details_parquet}")
     print(f"  segmenter    -> {'DictaBERT' if _SEGMENT_WITH_DICTABERT else 'fallback'}")
 
-    return out_pairs_token_jsonl, out_hebrew_token_txt, details_parquet
+    return out_pairs_token_jsonl, out_tokens_jsonl, out_hebrew_token_txt, details_parquet
 
 
 def main(
     *,
     in_pairs_jsonl: Optional[Path] = None,
     out_pairs_token_jsonl: Optional[Path] = None,
+    out_tokens_jsonl: Optional[Path] = None,
     out_hebrew_token_txt: Optional[Path] = None,
     details_parquet: Optional[Path] = None,
     remove_speakers: Tuple[str, ...] = ("CHI",),
@@ -683,6 +757,8 @@ def main(
         in_pairs_jsonl = configs.Dirs.processed / "htberman" / "aligned_pairs.jsonl"
     if out_pairs_token_jsonl is None:
         out_pairs_token_jsonl = configs.Dirs.processed / "htberman" / "aligned_pairs_token.jsonl"
+    if out_tokens_jsonl is None:
+        out_tokens_jsonl = configs.Dirs.processed / "htberman" / "aligned_tokens.jsonl"
     if out_hebrew_token_txt is None:
         out_hebrew_token_txt = configs.Dirs.processed / "htberman" / "corpus_utt_token_aligned.txt"
     if details_parquet is None:
@@ -691,6 +767,7 @@ def main(
     return run_token_level(
         in_pairs_jsonl=in_pairs_jsonl,
         out_pairs_token_jsonl=out_pairs_token_jsonl,
+        out_tokens_jsonl=out_tokens_jsonl,
         out_hebrew_token_txt=out_hebrew_token_txt,
         details_parquet=details_parquet,
         remove_speakers=remove_speakers,
