@@ -224,3 +224,4 @@ mlruns/
 saved_models/
 data/processed/htberman/aligned_tokens.jsonl
 src/tafberta/data/preprocessing/htberman_rerun_misaligned.py
+.vscode

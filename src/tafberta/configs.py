@@ -21,6 +21,7 @@ class Dirs:
 
     # heclimp
     heclimp_root = processed / 'heclimp'
+    heclimp_legal_words = heclimp_root / 'legal_words'
     heclimp_testsuits = heclimp_root / 'htberman'
 
     # wikipedia sentences file was created using https://github.com/NLPH/SVLM-Hebrew-Wikipedia-Corpus
