@@ -28,7 +28,7 @@ class Dirs:
     # wikipedia sentences file was created using https://github.com/NLPH/SVLM-Hebrew-Wikipedia-Corpus
     wikipedia_data_raw = raw / 'wikipedia' / 'SVLM_Hebrew_Wikipedia_Corpus.txt'
     wikipedia_corpus_processed = processed / 'htberman' / 'wikipedia' / 'wikipedia_segmented.txt'
-    wikipedia_testsuits = heclimp_root / 'wikipedia'
+    wikipedia_testsuits = heclimp_testsuits / 'wikipedia'
 
     # mlflow
     mlflow_tracking_uri = project_path / 'mlruns'
@@ -83,8 +83,8 @@ class Eval:
     interval = 20_000
   
     paradigm_paths = [
-        Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_num',
-        Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_gen'
+        Dirs.heclimp_testsuits_htberman / 'agreement_determiner_noun-across_0_adjective_num',
+        Dirs.heclimp_testsuits_htberman / 'agreement_determiner_noun-across_0_adjective_gen'
         ]
 
     # paradigm_paths = [
