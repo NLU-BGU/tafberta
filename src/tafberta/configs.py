@@ -71,9 +71,8 @@ class Training:
     max_step = 400000
     
     # optuna
-    experiment_name = 'Hebrew Wikipedia'
-    patience = 1  # Number of epochs to wait for improvement
-    # patience = 100  # Number of epochs to wait for improvement
+    experiment_name = 'TafBERTa'
+    patience = 100  # Number of epochs to wait for improvement
     n_trials = 100
     monitor = 'accuracy_dev'  # The metric to monitor for early stopping and hyperparameters funetuning
     mode = 'max'  # related to the metric to monitor
