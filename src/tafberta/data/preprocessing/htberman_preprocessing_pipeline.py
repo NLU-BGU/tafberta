@@ -31,13 +31,13 @@ python -m tafberta.data.preprocessing.htberman_prepare --only-utterance
 python -m tafberta.data.preprocessing.htberman_prepare --only-token
 """
 from pathlib import Path
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 import argparse
 import sys
 
 from tafberta import configs
 
-from tafberta.data.preprocessing.htberman_utterance_matcher import main as utterance_main
+from tafberta.data.preprocessing.htberman_utterance_matcher import build_htberman as utterance_main
 from tafberta.data.preprocessing.htberman_token_matcher import main as token_main
 
 
@@ -92,9 +92,7 @@ def run_pipeline(
     # ----------------
     if not only_token:
         print("[prepare] Phase 1: utterance-level matching…")
-        # Support both signatures: (main) or (build_htberman)
         try:
-            # htb_utterance_matcher.main signature
             utterance_main(
                 out_pairs_jsonl=pairs_jsonl,
                 out_hebrew_txt=heb_txt,
@@ -130,7 +128,7 @@ def run_pipeline(
 # CLI
 # -----------------------
 
-def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
+def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="HTBerman utterance+token pipeline")
     p.add_argument("--outdir", type=Path, default=None,
                    help="Output directory (default: configs.Dirs.processed/htberman)")
@@ -144,7 +142,7 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
     return p.parse_args(argv)
 
 
-def main(argv: Optional[list[str]] = None) -> None:
+def main(argv: Optional[List[str]] = None) -> None:
     args = parse_args(argv)
     run_pipeline(
         outdir=args.outdir,

@@ -21,12 +21,14 @@ class Dirs:
 
     # heclimp
     heclimp_root = processed / 'heclimp'
-    heclimp_testsuits = heclimp_root / 'htberman'
+    heclimp_legal_words = heclimp_root / 'legal_words'
+    heclimp_testsuits = heclimp_root / 'testsuits'
+    heclimp_testsuits_htberman = heclimp_testsuits / 'htberman'
 
     # wikipedia sentences file was created using https://github.com/NLPH/SVLM-Hebrew-Wikipedia-Corpus
     wikipedia_data_raw = raw / 'wikipedia' / 'SVLM_Hebrew_Wikipedia_Corpus.txt'
     wikipedia_corpus_processed = processed / 'htberman' / 'wikipedia' / 'wikipedia_segmented.txt'
-    wikipedia_testsuits = heclimp_root / 'wikipedia'
+    wikipedia_testsuits = heclimp_testsuits / 'wikipedia'
 
     # mlflow
     mlflow_tracking_uri = project_path / 'mlruns'
@@ -69,9 +71,8 @@ class Training:
     max_step = 400000
     
     # optuna
-    experiment_name = 'Hebrew Wikipedia'
-    patience = 1  # Number of epochs to wait for improvement
-    # patience = 100  # Number of epochs to wait for improvement
+    experiment_name = 'TafBERTa'
+    patience = 100  # Number of epochs to wait for improvement
     n_trials = 100
     monitor = 'accuracy_dev'  # The metric to monitor for early stopping and hyperparameters funetuning
     mode = 'max'  # related to the metric to monitor
@@ -81,8 +82,8 @@ class Eval:
     interval = 20_000
   
     paradigm_paths = [
-        Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_num',
-        Dirs.heclimp_testsuits / 'agreement_determiner_noun-across_0_adjective_gen'
+        Dirs.heclimp_testsuits_htberman / 'agreement_determiner_noun-across_0_adjective_num',
+        Dirs.heclimp_testsuits_htberman / 'agreement_determiner_noun-across_0_adjective_gen'
         ]
 
     # paradigm_paths = [
