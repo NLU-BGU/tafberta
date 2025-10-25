@@ -17,7 +17,7 @@
 </p>
 
 <div align="center">
- <img src="images/bubble_chart_main_page.jpg" width="250"> 
+ <img src="images/bubble_chart_main_page.jpg" width="500"> 
 </div>
 <p align="center" style="font-size:14px; color:#555; max-width:700px; margin:auto;">
   Overall accuracy of Hebrew language models on the 
@@ -267,9 +267,11 @@ src/tafberta/data/preprocessing/heclimp_split_all_data.py # split into dev/test
 
 <h3>Hebrew Models Comparison Accuracy on HeCLiMP Paradigms</h3>
 <div align="center">
- <img src="images/bubble_chart_Overall.jpg" width="250"> 
- <img src="images/bubble_chart_Number Agreement.jpg" width="250"> 
- <img src="images/bubble_chart_Gender Agreement.jpg" width="250"> 
+ <img src="images/bubble_chart_Overall.jpg" width="700"> 
+  
+ <img src="images/bubble_chart_Number Agreement.jpg" width="700"> 
+ 
+ <img src="images/bubble_chart_Gender Agreement.jpg" width="700"> 
 </div>
 
 
