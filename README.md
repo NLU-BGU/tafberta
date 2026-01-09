@@ -13,7 +13,7 @@
 <p>
   This repository contains research code for TafBERTa. HTBerman and HeCLiMP.
   
-  The research paper is available [here](https://aclanthology.org/).
+  The research paper is available [here](https://aclanthology.org/2025.babylm-main.6.pdf).
 </p>
 
 <div align="center">
@@ -474,6 +474,5 @@ python -m tafberta.training.train_lightning \
 </p>
 
 <blockquote>
-  TafBERTa: Learning Grammatical Rules from Small-Scale Language
-  Acquisition Data in Hebrew. [Preprint / ACL submission].
+Anita Gelboim and Elior Sulem. 2025. TafBERTa: Learning Grammatical Rules from Small-Scale Language Acquisition Data in Hebrew. In Proceedings of the First BabyLM Workshop, pages 76–90, Suzhou, China. Association for Computational Linguistics.
 </blockquote>
